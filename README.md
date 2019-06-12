@@ -1,17 +1,3 @@
-![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
-
-#### Master Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=master&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
-
-#### Development Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=development)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=development&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
-
-### Installing
-
-We offer binary images of the latest releases here: http://latest.turtlecoin.lol
-
-If you would like to compile yourself, read on.
-
 ### How To Compile
 
 #### Build Optimization
@@ -42,7 +28,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 - `export CC=gcc-8`
 - `export CXX=g++-8`
 - `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `cd smibcoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -182,6 +168,6 @@ Hi TurtleCoin contributor, thanks for forking and sending back Pull Requests. Ex
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018-2019, The TurtleCoin Developers
-//
+// Copyright (c) 2019,      The SmibCoin 
 // Please see the included LICENSE file for more information.
 ```
